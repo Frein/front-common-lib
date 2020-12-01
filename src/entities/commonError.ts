@@ -4,3 +4,5 @@ export default interface ICommonError {
     name: string,
     isSystem: boolean
 }
+;
+
