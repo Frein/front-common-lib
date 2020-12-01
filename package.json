@@ -2,7 +2,9 @@
   "name": "front-common-lib",
   "version": "1.0.0",
   "description": "Общие компоненты для использования функционала мастер-фронта, а так же компоненты для переиспользования в разных продуктах",
-  "main": "src/index.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "source": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
