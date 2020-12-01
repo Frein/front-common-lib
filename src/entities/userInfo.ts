@@ -14,4 +14,5 @@ export interface IUserInfo {
     documents: Array<Document>;
     contacts: Array<Contact>;
     organizations: Array<Organization>;
+    permissions: any;
 }
