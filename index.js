@@ -1,0 +1,1 @@
+export { default as ICommonError } from './entities/commonError'
