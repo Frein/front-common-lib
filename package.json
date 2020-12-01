@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Общие компоненты для использования функционала мастер-фронта, а так же компоненты для переиспользования в разных продуктах",
   "main": "index.ts",
+  "typings": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
