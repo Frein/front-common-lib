@@ -1,0 +1,19 @@
+import React from 'react';
+import SvgIcon from '@material-ui/core/SvgIcon';
+
+export default function Registry() {
+  return (
+    <SvgIcon
+      width="18"
+      height="21"
+      viewBox="0 0 18 21"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M15.4648 2.71191V0.368164H0.171875V20.3682H15.4648V18.0244H17.8281V2.71191H15.4648ZM1.34375 19.1963V1.54004H3.70703V19.1963H1.34375ZM14.293 19.1963H4.87891V1.54004H14.293V19.1963ZM16.6562 16.833H15.4648V13.3174H16.6562V16.833ZM16.6562 12.126H15.4648V8.61035H16.6562V12.126ZM15.4648 7.41895V3.90332H16.6562V7.41895H15.4648ZM6.05078 5.0752H11.9492V6.24707H6.05078V5.0752ZM6.05078 7.41895H10.7578V8.61035H6.05078V7.41895Z"
+        fill="#fff"
+      />
+    </SvgIcon>
+  );
+}
