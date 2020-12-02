@@ -1,4 +1,4 @@
-export interface Organization {
+export interface IOrganization {
     oid: number;
     fullName: string | null;
     shortName: string | null;

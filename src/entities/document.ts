@@ -1,4 +1,4 @@
-export interface Document {
+export interface IDocument {
     type: string;
     series: string | null;
     number: string | null;

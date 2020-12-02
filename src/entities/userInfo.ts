@@ -1,7 +1,8 @@
 import {IAddress} from "./address";
-import {Document} from "./document";
-import {Contact} from "./contact";
-import {Organization} from "./organization";
+import {IDocument} from "./document";
+import {IOrganization} from "./organization";
+import {IContact} from "./contact";
+
 
 export interface IUserInfo {
     userID: number;
@@ -11,8 +12,8 @@ export interface IUserInfo {
     inn: string;
     snils: string;
     addresses: Array<IAddress>;
-    documents: Array<Document>;
-    contacts: Array<Contact>;
-    organizations: Array<Organization>;
+    documents: Array<IDocument>;
+    contacts: Array<IContact>;
+    organizations: Array<IOrganization>;
     permissions: any;
 }
